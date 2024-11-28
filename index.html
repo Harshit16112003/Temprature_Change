@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    
+        
+    <link rel="stylesheet" href="converter.css">
+</head>
+
+<body>
+    <!-- Create a contener div for this perticular block of code  -->
+    <div class="converter">
+        <h2>&deg;Temperature Converter Tool</h2>
+        <label for="fromUnit">From:</label>
+        <select id="fromUnit">
+            <option>Select Unit </option>
+            <option value="C">Celcious</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+            <option value="R">Rankine</option>
+        </select>
+        <label for="toUnit">To:</label>
+        <select id="toUnit">
+            <option>Select Unit </option>
+            <option value="C">Celcious</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+            <option value="R">Rankine</option>
+        </select>
+        <label for="temperature">Temperature</label>
+        <input type="number" id="temperature" placeholder="Enter Temperature" required>
+        <button onclick="convert()">Convert</button>
+         
+        <label for="result">Result:</label>
+        <input type="text" id="result" readonly>
+        <br>
+        <br>
+        <p>Its owned by Mr. Harshit Bhorgade &hearts;</p>
+    </div>  
+    <!-- Adding Java Script File in this Section -->
+    <script src="javascript.js">
+      
+    </script>
+    
+
+</body>
+
+</html>
